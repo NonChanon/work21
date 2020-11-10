@@ -3,7 +3,7 @@
 void letter(char *arr) {
 	int i = 0;
 	while (arr[i] != '\0') {
-		if (arr[i] >= 'a' and arr[i] <= 'z' or arr[i] >= 'A' and arr[i] <= 'Z' or arr[i] == ' ') {
+		if (arr[i] >= 'a' and arr[i] <= 'z' or arr[i] >= 'A' and arr[i] <= 'Z' or arr[i] == ' ' or arr[i] >= '0' and arr[i] <= '9') {
 			printf("%c", arr[i]);
 		}
 		i++;
